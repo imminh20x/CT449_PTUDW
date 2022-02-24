@@ -1,5 +1,5 @@
 const express = require("express");
-const {create, findAll, findOne, update, deleteAll, deleteOne} = require("../controller/contact.controller");
+const {create, findAll, findOne, update, deleteAll, deleteOne} = require("../controllers/contact.controller");
 
 module.exports = (app) => {
   const router = express.Router();
